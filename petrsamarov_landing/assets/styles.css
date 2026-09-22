@@ -125,3 +125,84 @@ html[lang="ru"] .support-grid h2{font-size:clamp(36px,4vw,56px);line-height:.96}
 /* RU podcast poster: keep the long word on one line without hyphenation */
 html[lang="ru"] .poster-block .big span{display:block}
 html[lang="ru"] .poster-block .big .long-word{font-size:.78em;letter-spacing:-.06em}
+
+/* Compact contact section */
+
+.contact-strip{
+  padding:48px 0;
+}
+
+.contact-strip-inner{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:64px;
+  align-items:center;
+}
+
+.contact-strip-copy{
+  min-width:0;
+}
+
+.contact-strip-copy .eyebrow{
+  margin-bottom:10px;
+}
+
+.contact-strip-title{
+  font-size:clamp(20px,2vw,28px);
+  line-height:1.15;
+  font-weight:900;
+  letter-spacing:-.02em;
+  text-transform:uppercase;
+  max-width:620px;
+}
+
+.contact-strip-email{
+  font-size:clamp(18px,1.8vw,25px);
+  line-height:1.1;
+  font-weight:900;
+  letter-spacing:-.015em;
+  text-decoration:none;
+  text-transform:uppercase;
+  white-space:nowrap;
+  transition:color .18s ease;
+}
+
+.contact-strip-email:hover{
+  color:var(--red-bright);
+}
+
+html[lang="ru"] .contact-strip-title{
+  font-size:clamp(19px,1.8vw,26px);
+  letter-spacing:-.025em;
+}
+
+@media(max-width:920px){
+  .contact-strip-inner{
+    grid-template-columns:1fr;
+    gap:22px;
+  }
+
+  .contact-strip-email{
+    justify-self:start;
+  }
+}
+
+@media(max-width:600px){
+  .contact-strip{
+    padding:38px 0;
+  }
+
+  .contact-strip-title{
+    font-size:21px;
+  }
+
+  html[lang="ru"] .contact-strip-title{
+    font-size:20px;
+  }
+
+  .contact-strip-email{
+    font-size:18px;
+    white-space:normal;
+    overflow-wrap:anywhere;
+  }
+}
