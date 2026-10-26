@@ -248,3 +248,12 @@ html[lang="ru"] .contact-strip-title{
 .trailer-note .eyebrow{margin-bottom:14px}
 .trailer-note p{margin:0 0 12px;color:#c5c1be;font-size:16px;line-height:1.65}
 .trailer-note p:last-child{margin-bottom:0}
+
+
+/* Author profile links */
+.author-social{display:flex;align-items:center;gap:12px;margin-top:26px}
+.author-social a{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border:1px solid var(--line);color:var(--paper);text-decoration:none;transition:color .18s ease,border-color .18s ease,background .18s ease}
+.author-social a:hover,.author-social a:focus-visible{color:var(--red-bright);border-color:var(--red-bright);background:#140d0d}
+.author-social svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
+.author-social .social-dot{fill:currentColor;stroke:none}
+.author-social .social-play{fill:currentColor;stroke:none}
