@@ -241,3 +241,10 @@ html[lang="ru"] .contact-strip-title{
 .promo-card-with-image .promo-card-copy{padding:20px 22px 24px;flex:1}
 .promo-card-with-image .promo-card-copy strong{font-size:17px;line-height:1.2}
 .promo-card-with-image .promo-card-copy small{margin-top:auto}
+
+
+/* Book trailer: author's behind-the-scenes note */
+.trailer-note{grid-column:1/-1;max-width:780px;padding-top:8px;border-top:1px solid var(--line)}
+.trailer-note .eyebrow{margin-bottom:14px}
+.trailer-note p{margin:0 0 12px;color:#c5c1be;font-size:16px;line-height:1.65}
+.trailer-note p:last-child{margin-bottom:0}
