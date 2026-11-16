@@ -81,7 +81,7 @@ h2{font-size:clamp(38px,6vw,76px);line-height:.96;letter-spacing:-.045em;text-tr
 .poster-block .big{font-size:clamp(42px,6vw,76px);font-weight:900;line-height:.88;letter-spacing:-.05em;text-transform:uppercase}
 .content-block h2{font-size:clamp(38px,5vw,65px)}
 .content-block p{font-size:18px;color:#c5c1be;max-width:700px}
-.author-photo{width:100%;display:block;filter:grayscale(1);border:1px solid var(--line)}
+.author-photo{width:100%;height:auto;display:block;aspect-ratio:3/4;object-fit:contain;border:1px solid var(--line)}
 .author-name{font-family:var(--serif);font-weight:400!important;letter-spacing:.14em!important;text-transform:uppercase}
 .support-list{border-top:1px solid var(--line)}
 .support-link{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;padding:22px 0;border-bottom:1px solid var(--line);text-decoration:none}
